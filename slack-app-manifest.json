@@ -1,0 +1,17 @@
+{
+  "display_information": {
+    "name": "Slack Message Forwarder",
+    "description": "Read available Slack messages for an internal API."
+  },
+  "features": {
+    "bot_user": { "display_name": "Slack Message Forwarder" }
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "channels:read", "channels:history", "groups:read", "groups:history",
+        "im:read", "im:history", "mpim:read", "mpim:history", "users:read"
+      ]
+    }
+  }
+}
